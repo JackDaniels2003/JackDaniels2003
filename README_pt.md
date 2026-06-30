@@ -94,32 +94,57 @@ Solicitações de estoque, agendamentos e fluxos de comunicação interna.
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+
+### ▣ &nbsp;Plataforma de Gestão Integrada &nbsp;<sub>· principal</sub>
+
+O que começou como um DRE financeiro virou o hub de operações interno da empresa — uma plataforma, vários setores, todos rodando sobre os mesmos dados ao vivo.
+
+| Módulo | O que faz |
+|--------|-----------|
+| **Financeiro** | DRE projetado e realizado com back-testing, calendário de fluxo de caixa, contas a receber, indicadores |
+| **RH** | Folha de ponto digital, controle de banco de horas, resumo da folha |
+| **Compras** | Pedidos, orçamento de compras e o impacto deles no financeiro |
+| **Logística** | Controle monetário do estoque e relatório do centro de distribuição |
+| **Dados** | ETL automatizado importando dados do ERP legado (DBF / TOTVS) para o PostgreSQL a cada poucos minutos |
+
+`Node.js` · `Express` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
+
+<sub>Privado · produção · usado entre setores todos os dias</sub>
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
-### Plataforma de Projeção Financeira
-Um cockpit financeiro completo para a gestão.
+### ◆ &nbsp;Plataforma de Captação em Campo
 
-- DRE projetado com back-testing
-- Calendário de fluxo de caixa e contas a receber
-- Indicadores financeiros e análise de tendência
-- Dashboards prontos para decisão
+Transforma a equipe de vendas em uma rede de prospecção em campo.
 
-`Node.js` · `Express` · `PostgreSQL` · `Docker`
+- Consultores registram obras e prospects no local
+- Fotos (comprimidas automaticamente) e geolocalização GPS por lead
+- Mapa interativo de cada oportunidade captada
+- Distribuição de leads e acompanhamento de follow-up
+- Single sign-on com a plataforma principal (HMAC)
+
+`Python` · `Flask` · `SQLite` · `Pandas`
 
 <sub>Privado · produção · uso diário</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Plataforma de Solicitação de Estoque
-Coordena o fluxo entre vendas e o centro de distribuição.
+### ▦ &nbsp;Plataforma de Endereçamento de Estoque
 
-- Confirmação e reserva de estoque
-- Fluxo estruturado de solicitação
-- Comunicação interna entre equipes
-- Acompanhamento de status ponta a ponta
+Mapeia e gerencia cada posição de armazenagem do estoque.
 
-`Node.js` · `PostgreSQL` · `EJS`
+- Cada posição de pallet, rua e vão totalmente mapeada
+- Controle de pallets com drag-and-drop
+- Gestão de movimentações ponta a ponta
+- Gestão de produtos cadastrados
+- Mesma arquitetura da plataforma principal — Python + SQLite, sem Docker
+
+`Python` · `SQLite` · `Drag & Drop UI`
 
 <sub>Privado · produção · uso diário</sub>
 
@@ -128,32 +153,30 @@ Coordena o fluxo entre vendas e o centro de distribuição.
 <tr>
 <td width="50%" valign="top">
 
-### Plataforma de Processamento de Notas
+### ◇ &nbsp;Plataforma de Processamento de Notas
+
 Tira a digitação manual da rotina financeira.
 
-- Extração de PDF
-- Leitura de XML (NF-e)
-- Conciliação automatizada
-- Saída estruturada direto no banco
+- Extração de PDF · leitura de XML (NF-e)
+- Conciliação automatizada direto no banco
 
 `Python` · `Automação` · `PostgreSQL`
 
-<sub>Privado · produção · uso diário</sub>
+<sub>Privado · produção</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Plataforma de Business Intelligence
-Os números por trás das reuniões de gestão.
+### ◷ &nbsp;Plataforma de Solicitação de Estoque
 
-- Dashboards consolidados
-- KPIs de financeiro, vendas e logística
-- Relatórios revisados diretamente pela liderança
-- Dados vivos no lugar de planilhas estáticas
+Coordena o fluxo entre vendas e o centro de distribuição.
 
-`Power BI` · `SQL` · `PostgreSQL`
+- Confirmação de estoque e fluxo estruturado de solicitação
+- Acompanhamento de status e comunicação interna
 
-<sub>Privado · produção · uso diário</sub>
+`Node.js` · `PostgreSQL` · `EJS`
+
+<sub>Privado · produção</sub>
 
 </td>
 </tr>

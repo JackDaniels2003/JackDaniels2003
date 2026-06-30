@@ -94,32 +94,57 @@ Warehouse requests, scheduling and internal communication workflows.
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+
+### ▣ &nbsp;Integrated Management Platform &nbsp;<sub>· flagship</sub>
+
+What started as a financial DRE grew into the company's internal operations hub — one platform, many departments, all running on the same live data.
+
+| Module | What it does |
+|--------|--------------|
+| **Financial** | Projected & realized income statement (DRE) with back-testing, cash-flow calendar, accounts receivable, indicators |
+| **HR** | Digital time clock, hour-bank tracking, payroll summary |
+| **Purchasing** | Purchase orders, budgeting and their impact on the financials |
+| **Logistics** | Monetary inventory control and distribution-center reporting |
+| **Data** | Automated ETL importing legacy ERP data (DBF / TOTVS) into PostgreSQL every few minutes |
+
+`Node.js` · `Express` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
+
+<sub>Private · production · used across departments every day</sub>
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
-### Financial Forecast Platform
-A full financial cockpit for management.
+### ◆ &nbsp;Field Lead Capture Platform
 
-- Projected income statement (DRE) with back-testing
-- Cash-flow calendar and accounts receivable
-- Financial indicators and trend analysis
-- Decision-ready business dashboards
+Turns the sales team into a prospecting network out in the field.
 
-`Node.js` · `Express` · `PostgreSQL` · `Docker`
+- Consultants register construction sites & prospects on location
+- Photos (auto-compressed) and GPS geolocation per lead
+- Interactive map of every captured opportunity
+- Lead distribution and follow-up tracking
+- Single sign-on with the main platform (HMAC)
+
+`Python` · `Flask` · `SQLite` · `Pandas`
 
 <sub>Private · production · used daily</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Warehouse Request Platform
-Coordinates the flow between sales and the distribution center.
+### ▦ &nbsp;Warehouse Addressing Platform
 
-- Inventory confirmation and reservation
-- Structured request workflow
-- Internal communication between teams
-- Status tracking end to end
+Maps and manages every storage position in the warehouse.
 
-`Node.js` · `PostgreSQL` · `EJS`
+- Each pallet position, aisle and slot fully mapped
+- Drag-and-drop pallet control
+- End-to-end movement management
+- Registered-product management
+- Same architecture as the main platform — Python + SQLite, no Docker
+
+`Python` · `SQLite` · `Drag & Drop UI`
 
 <sub>Private · production · used daily</sub>
 
@@ -128,32 +153,30 @@ Coordinates the flow between sales and the distribution center.
 <tr>
 <td width="50%" valign="top">
 
-### Invoice Processing Platform
+### ◇ &nbsp;Invoice Processing Platform
+
 Removes manual data entry from the finance routine.
 
-- PDF extraction
-- XML (NF-e) parsing
-- Automated reconciliation
-- Structured output into the database
+- PDF extraction · XML (NF-e) parsing
+- Automated reconciliation into the database
 
 `Python` · `Automation` · `PostgreSQL`
 
-<sub>Private · production · used daily</sub>
+<sub>Private · production</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Business Intelligence Platform
-The numbers behind the management meetings.
+### ◷ &nbsp;Warehouse Request Platform
 
-- Consolidated dashboards
-- KPIs across finance, sales and logistics
-- Reporting that leadership reviews directly
-- Live data instead of static spreadsheets
+Coordinates the flow between sales and the distribution center.
 
-`Power BI` · `SQL` · `PostgreSQL`
+- Inventory confirmation & structured request workflow
+- Status tracking and internal communication
 
-<sub>Private · production · used daily</sub>
+`Node.js` · `PostgreSQL` · `EJS`
+
+<sub>Private · production</sub>
 
 </td>
 </tr>
