@@ -233,7 +233,13 @@ Eu uso para avançar mais rápido na implementação: scaffolding, código repet
 ## &nbsp; Atividade no GitHub
 
 <p align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=JackDaniels2003&hide_border=true&background=020617&stroke=1E3A8A&ring=2563EB&fire=60A5FA&currStreakLabel=60A5FA&sideLabels=94A3B8&dates=475569&currStreakNum=E2E8F0&sideNums=E2E8F0" alt="streak"/>
+  <img height="185" src="https://github-readme-stats-gamma-plum-69.vercel.app/api?username=JackDaniels2003&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=020617&title_color=60A5FA&icon_color=3B82F6&text_color=94A3B8&ring_color=2563EB" alt="stats"/>
+  &nbsp;
+  <img height="185" src="https://streak-stats.demolab.com?user=JackDaniels2003&hide_border=true&background=020617&stroke=1E3A8A&ring=2563EB&fire=60A5FA&currStreakLabel=60A5FA&sideLabels=94A3B8&dates=475569&currStreakNum=E2E8F0&sideNums=E2E8F0" alt="streak"/>
+</p>
+
+<p align="center">
+  <img width="42%" src="https://github-readme-stats-gamma-plum-69.vercel.app/api/top-langs/?username=JackDaniels2003&layout=compact&hide_border=true&langs_count=8&bg_color=020617&title_color=60A5FA&text_color=94A3B8" alt="top languages"/>
 </p>
 
 <p align="center">
