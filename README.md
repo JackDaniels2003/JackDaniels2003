@@ -233,13 +233,7 @@ I use it to move faster through implementation: scaffolding, boilerplate, refact
 ## &nbsp; GitHub activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=JackDaniels2003&show_icons=true&hide_border=true&bg_color=020617&title_color=60A5FA&icon_color=3B82F6&text_color=94A3B8&ring_color=2563EB" alt="stats"/>
-  &nbsp;
-  <img height="170" src="https://streak-stats.demolab.com?user=JackDaniels2003&hide_border=true&background=020617&stroke=1E3A8A&ring=2563EB&fire=60A5FA&currStreakLabel=60A5FA&sideLabels=94A3B8&dates=475569&currStreakNum=E2E8F0&sideNums=E2E8F0" alt="streak"/>
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JackDaniels2003&layout=compact&hide_border=true&bg_color=020617&title_color=60A5FA&text_color=94A3B8&langs_count=8" alt="top languages"/>
+  <img height="180" src="https://streak-stats.demolab.com?user=JackDaniels2003&hide_border=true&background=020617&stroke=1E3A8A&ring=2563EB&fire=60A5FA&currStreakLabel=60A5FA&sideLabels=94A3B8&dates=475569&currStreakNum=E2E8F0&sideNums=E2E8F0" alt="streak"/>
 </p>
 
 <p align="center">
