@@ -88,7 +88,7 @@ Solicitações de estoque, agendamentos e fluxos de comunicação interna.
 
 ## &nbsp; Plataformas em destaque
 
-<sub>Projetadas e construídas por mim, rodando em produção. O código é meu — os repositórios ficam **privados** apenas porque lidam com dados reais e confidenciais da empresa.</sub>
+<sub>Construídas para uso em produção. Os repositórios são mantidos **privados** porque o código contém informações confidenciais da empresa.</sub>
 
 <br/>
 
