@@ -88,7 +88,7 @@ Warehouse requests, scheduling and internal communication workflows.
 
 ## &nbsp; Featured platforms
 
-<sub>Built for production use. Repositories are kept **private** because the code belongs to the company.</sub>
+<sub>Designed and built by me, running in production. The code is mine — the repositories stay **private** only because they run on real, confidential company data.</sub>
 
 <br/>
 
