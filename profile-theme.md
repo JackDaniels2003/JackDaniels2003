@@ -2,10 +2,10 @@
   <img src="./assets/banner.svg" width="100%"/>
 </p>
 
-# Design System — Daniel Teodoro Profile
+# Design System · Daniel Teodoro Profile
 
 A single, consistent visual identity across every file in this project.
-Dark mode only. Engineered, restrained, blue. Inspired by Stripe, Vercel, Linear, Cloudflare and Apple Developer — never cyberpunk, never childish, never overloaded.
+Dark mode only. Engineered, restrained, blue. Inspired by Stripe, Vercel, Linear, Cloudflare and Apple Developer. Never cyberpunk, never childish, never overloaded.
 
 <img src="./assets/divider.svg" width="100%"/>
 
@@ -41,7 +41,7 @@ Dark mode only. Engineered, restrained, blue. Inspired by Stripe, Vercel, Linear
 - **Subtle over flashy.** Animations breathe (4–12s loops), they don't flash.
 - **Purposeful pulses.** A travelling dot signals flow (workflow, dividers), not decoration.
 - **Soft glow.** Gaussian blur merges, never hard neon.
-- **SMIL-based.** All animation uses native SVG `<animate>` / `<animateTransform>` so it renders inside GitHub's `<img>` sandbox (no JavaScript — GitHub strips it).
+- **SMIL-based.** All animation uses native SVG `<animate>` / `<animateTransform>` so it renders inside GitHub's `<img>` sandbox (no JavaScript, since GitHub strips it).
 
 <img src="./assets/divider.svg" width="100%"/>
 
@@ -49,7 +49,7 @@ Dark mode only. Engineered, restrained, blue. Inspired by Stripe, Vercel, Linear
 
 | File                     | Role                                              |
 |--------------------------|---------------------------------------------------|
-| `assets/banner.svg`      | Hero — animated gradient, grid, sweeping lines    |
+| `assets/banner.svg`      | Hero: animated gradient, grid, sweeping lines    |
 | `assets/divider.svg`     | Reusable section divider with travelling pulse    |
 | `assets/terminal.svg`    | Minimal fake terminal with typed-in lines         |
 | `assets/workflow.svg`    | Animated 7-stage engineering pipeline             |

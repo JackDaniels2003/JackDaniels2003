@@ -3,7 +3,7 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Daniel Teodoro — Software Engineer" width="100%"/>
+  <img src="./assets/banner.svg" alt="Daniel Teodoro, Software Engineer" width="100%"/>
 </p>
 
 <p align="center">
@@ -23,9 +23,9 @@
 
 ## &nbsp; Em poucas palavras
 
-Sou desenvolvedor em uma empresa de varejo, onde construo boa parte do software interno que as equipes usam no dia a dia — plataformas financeiras, dashboards e ferramentas para o estoque e para automatizar trabalho manual.
+Sou desenvolvedor em uma empresa de varejo, onde construo boa parte do software interno que as equipes usam no dia a dia: plataformas financeiras, dashboards e ferramentas para o estoque e para automatizar trabalho manual.
 
-O que eu mais gosto é de estar perto de quem usa o que eu construo. Participo das reuniões de resultado e converso com as equipes de financeiro, logística e gestão, para entender o que um número realmente significa antes de transformar em código — e depois vou melhorando conforme as pessoas usam.
+O que eu mais gosto é de estar perto de quem usa o que eu construo. Participo das reuniões de resultado e converso com as equipes de financeiro, logística e gestão, para entender o que um número realmente significa antes de transformar em código, e depois vou melhorando conforme as pessoas usam.
 
 <br/>
 
@@ -98,7 +98,7 @@ Solicitações de estoque, agendamentos e fluxos de comunicação interna.
 
 ### ▣ &nbsp;Plataforma de Gestão Integrada &nbsp;<sub>· principal</sub>
 
-O que começou como um DRE financeiro virou o hub de operações interno da empresa — uma plataforma, vários setores, todos rodando sobre os mesmos dados ao vivo.
+O que começou como um DRE financeiro virou o hub de operações interno da empresa. Uma plataforma, vários setores, todos rodando sobre os mesmos dados ao vivo.
 
 | Módulo | O que faz |
 |--------|-----------|
@@ -142,7 +142,7 @@ Mapeia e gerencia cada posição de armazenagem do estoque.
 - Controle de pallets com drag-and-drop
 - Gestão de movimentações ponta a ponta
 - Gestão de produtos cadastrados
-- Mesma arquitetura da plataforma principal — Python + SQLite, sem Docker
+- Mesma arquitetura da plataforma principal: Python + SQLite, sem Docker
 
 `Python` · `SQLite` · `Drag & Drop UI`
 
@@ -213,11 +213,11 @@ Coordena o fluxo entre vendas e o centro de distribuição.
 <tr>
 <td width="62%" valign="top">
 
-A IA faz parte de como eu construo — não é enfeite e não substitui engenharia.
+A IA faz parte de como eu construo. Não é enfeite e não substitui engenharia.
 
 Eu uso para avançar mais rápido na implementação: scaffolding, código repetitivo, refatorações, descoberta de casos de borda e documentação. Ela encurta a distância entre uma decisão e o código funcionando.
 
-**As decisões continuam minhas.** Arquitetura, modelagem de dados, fronteiras de segurança, trade-offs e o que significa *correto* para o negócio — isso vem de entender o problema, não de um prompt. A IA acelera a digitação; a engenharia continua sendo o pensamento.
+**As decisões continuam minhas.** Arquitetura, modelagem de dados, fronteiras de segurança, trade-offs e o que significa *correto* para o negócio: isso vem de entender o problema, não de um prompt. A IA acelera a digitação. O pensamento continua sendo meu.
 
 </td>
 <td width="38%" valign="top">

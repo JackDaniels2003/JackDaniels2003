@@ -3,7 +3,7 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Daniel Teodoro — Software Engineer" width="100%"/>
+  <img src="./assets/banner.svg" alt="Daniel Teodoro, Software Engineer" width="100%"/>
 </p>
 
 <p align="center">
@@ -23,9 +23,9 @@
 
 ## &nbsp; The short version
 
-I'm a developer at a retail company, where I build most of the internal software the teams use day to day — financial platforms, dashboards, and tools for the warehouse and for automating manual work.
+I'm a developer at a retail company, where I build most of the internal software the teams use day to day: financial platforms, dashboards, and tools for the warehouse and for automating manual work.
 
-What I enjoy most is being close to the people who actually use what I build. I take part in the results meetings and talk with the finance, logistics and management teams, so I can understand what a number really means before turning it into code — and then keep improving things as people use them.
+What I enjoy most is being close to the people who actually use what I build. I take part in the results meetings and talk with the finance, logistics and management teams, so I can understand what a number really means before turning it into code, and then keep improving things as people use them.
 
 <br/>
 
@@ -98,7 +98,7 @@ Warehouse requests, scheduling and internal communication workflows.
 
 ### ▣ &nbsp;Integrated Management Platform &nbsp;<sub>· flagship</sub>
 
-What started as a financial DRE grew into the company's internal operations hub — one platform, many departments, all running on the same live data.
+What started as a financial DRE grew into the company's internal operations hub. One platform, many departments, all running on the same live data.
 
 | Module | What it does |
 |--------|--------------|
@@ -142,7 +142,7 @@ Maps and manages every storage position in the warehouse.
 - Drag-and-drop pallet control
 - End-to-end movement management
 - Registered-product management
-- Same architecture as the main platform — Python + SQLite, no Docker
+- Same architecture as the main platform: Python + SQLite, no Docker
 
 `Python` · `SQLite` · `Drag & Drop UI`
 
@@ -213,11 +213,11 @@ Coordinates the flow between sales and the distribution center.
 <tr>
 <td width="62%" valign="top">
 
-AI is part of how I build — not a gimmick and not a replacement for engineering.
+AI is part of how I build. Not a gimmick and not a replacement for engineering.
 
 I use it to move faster through implementation: scaffolding, boilerplate, refactors, edge-case discovery and documentation. It compresses the distance between a decision and working code.
 
-**The decisions stay mine.** Architecture, data modeling, security boundaries, trade-offs and what *correct* means for the business — those come from understanding the problem, not from a prompt. AI accelerates the typing; engineering is still the thinking.
+**The decisions stay mine.** Architecture, data modeling, security boundaries, trade-offs and what *correct* means for the business: that comes from understanding the problem, not from a prompt. AI speeds up the typing. The thinking is still mine.
 
 </td>
 <td width="38%" valign="top">

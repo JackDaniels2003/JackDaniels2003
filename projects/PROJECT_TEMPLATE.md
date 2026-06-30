@@ -19,7 +19,7 @@
 ## Problem
 
 What was broken, slow, manual or unreliable before this existed?
-State it in business terms — the cost, the risk or the friction the company was living with.
+State it in business terms: the cost, the risk or the friction the company was living with.
 
 > Example: *The finance team rebuilt the same forecast by hand in spreadsheets every month, with no history and no way to check how accurate past projections were.*
 
@@ -38,7 +38,7 @@ Where this system sits in the company.
 
 ## Requirements
 
-What the system had to do — separated from how it does it.
+What the system had to do, separated from how it does it.
 
 **Functional**
 - Requirement 1
@@ -85,7 +85,7 @@ How the pieces fit together.
 
 ## Screenshots
 
-<sub>Replace with masked / demo screenshots only — never expose real company data.</sub>
+<sub>Replace with masked / demo screenshots only. Never expose real company data.</sub>
 
 | View | Description |
 |------|-------------|
@@ -97,7 +97,7 @@ How the pieces fit together.
 
 ## Results
 
-What changed after it shipped — quantify where possible.
+What changed after it shipped. Quantify where possible.
 
 - Eliminated **X hours/month** of manual work
 - Reduced reporting lag from **N days to real time**
