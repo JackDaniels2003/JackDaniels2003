@@ -23,9 +23,9 @@
 
 ## &nbsp; Em poucas palavras
 
-Eu construo o software interno que uma empresa de varejo realmente usa para operar — plataformas financeiras, dashboards de gestão, ferramentas de logística e automação que as pessoas abrem toda manhã para tomar decisões e movimentar dinheiro.
+Sou desenvolvedor em uma empresa de varejo, onde construo boa parte do software interno que as equipes usam no dia a dia — plataformas financeiras, dashboards e ferramentas para o estoque e para automatizar trabalho manual.
 
-Não sou o tipo de engenheiro que espera uma especificação pronta. Eu participo das reuniões de resultado, converso com as equipes de financeiro, logística e gestão, entendo *por que* um número importa antes de modelar a tabela que vai guardá-lo. Depois coloco em produção e continuo melhorando.
+O que eu mais gosto é de estar perto de quem usa o que eu construo. Participo das reuniões de resultado e converso com as equipes de financeiro, logística e gestão, para entender o que um número realmente significa antes de transformar em código — e depois vou melhorando conforme as pessoas usam.
 
 <br/>
 

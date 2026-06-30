@@ -23,9 +23,9 @@
 
 ## &nbsp; The short version
 
-I build the internal software a retail company actually runs on — financial platforms, business dashboards, warehouse and automation tools that people open every morning to make decisions and move money.
+I'm a developer at a retail company, where I build most of the internal software the teams use day to day — financial platforms, dashboards, and tools for the warehouse and for automating manual work.
 
-I'm not the kind of engineer who waits for a finished spec. I sit in the results meetings, I talk to the finance, logistics and management teams, I understand *why* a number matters before I model the table that stores it. Then I ship it to production and keep improving it.
+What I enjoy most is being close to the people who actually use what I build. I take part in the results meetings and talk with the finance, logistics and management teams, so I can understand what a number really means before turning it into code — and then keep improving things as people use them.
 
 <br/>
 
