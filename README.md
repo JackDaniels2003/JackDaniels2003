@@ -1,221 +1,248 @@
-<div align="center">
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  Daniel Teodoro · Profile README · dark / blue design system   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-# Daniel Teodoro
-
-### Software Engineer focused on Business Systems
-
-Building software that supports **financial**, **operational** and **strategic** decision-making.
-
-<p>
-  <a href="https://linkedin.com/in/SEU-LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-
-  <a href="mailto:SEUEMAIL">
-    <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+<p align="center">
+  <img src="./assets/banner.svg" alt="Daniel Teodoro — Software Engineer" width="100%"/>
 </p>
 
-</div>
+<p align="center">
+  <a href="./README.md"><b>English</b></a>
+  &nbsp;·&nbsp;
+  <a href="./README_pt.md">Português</a>
+</p>
 
----
+<p align="center">
+  <code>Software Engineer</code> &nbsp;•&nbsp;
+  <code>Business Systems</code> &nbsp;•&nbsp;
+  <code>Financial Technology</code> &nbsp;•&nbsp;
+  <code>Automation</code>
+</p>
 
-# About
+<img src="./assets/divider.svg" width="100%"/>
 
-I develop internal business systems that help companies make better decisions.
+## &nbsp; The short version
 
-Instead of focusing only on code, I work from the business problem to the final solution — understanding operational processes, designing software and delivering tools used in real business environments.
+I build the internal software a retail company actually runs on — financial platforms, business dashboards, warehouse and automation tools that people open every morning to make decisions and move money.
 
-My work combines software engineering, business intelligence and process automation.
+I'm not the kind of engineer who waits for a finished spec. I sit in the results meetings, I talk to the finance, logistics and management teams, I understand *why* a number matters before I model the table that stores it. Then I ship it to production and keep improving it.
 
----
+<br/>
 
-# What I Do
+## &nbsp; What I do
 
-- Financial Management Systems
-- Business Intelligence
-- Internal Web Platforms
-- Process Automation
-- Data Integration
-- ETL Pipelines
-- Operational Dashboards
-- ERP Integrations
-- AI-assisted Software Development
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+**Financial Management**
+Projected income statements, cash flow, accounts receivable and the indicators leadership reviews.
 
-# Featured Projects
+**Business Intelligence**
+Dashboards and KPIs that replace fragile spreadsheets with live, queryable data.
 
-## Financial Forecast Platform *(Private Repository)*
+**Automation**
+Document extraction, ETL pipelines and routines that remove manual, repetitive work.
 
-Internal financial platform developed for daily management.
+</td>
+<td width="50%" valign="top">
 
-Features include:
+**Internal Platforms**
+Operational systems used daily across departments, behind authentication and role-based access.
 
-- Projected Income Statement (DRE)
-- Cash Flow
-- Accounts Receivable
-- Financial KPIs
-- Real-time indicators
-- Performance analysis
+**Data Integration**
+Bridging legacy ERP data (DBF / TOTVS) into modern PostgreSQL-backed applications.
 
----
+**Operational Systems**
+Warehouse requests, scheduling and internal communication workflows.
 
-## Warehouse Request Platform *(Private Repository)*
+</td>
+</tr>
+</table>
 
-Internal communication platform connecting sales representatives and warehouse operations.
+<img src="./assets/divider.svg" width="100%"/>
 
-Features include:
+## &nbsp; Current mission
 
-- Inventory confirmation
-- Request workflow
-- Status tracking
-- Authentication
-- Dashboard
-- SQLite database
+> **Building software that improves how a company operates.**
+>
+> Replacing spreadsheets with web applications.
+> Turning raw ERP exports into decisions managers can trust.
+> Giving leadership real numbers, in real time, instead of week-old reports.
 
----
+<br/>
 
-## Invoice Processing System *(Private Repository)*
+## &nbsp; How I work
 
-Automation platform responsible for extracting information from PDF and XML invoices.
+<p align="center">
+  <img src="./assets/workflow.svg" alt="Engineering workflow" width="100%"/>
+</p>
 
-Features include:
+<p align="center">
+  <sub>
+    Business Problem → Requirements → Architecture → AI-assisted Development → Testing → Deployment → Continuous Improvement
+  </sub>
+</p>
 
-- Automatic document reading
-- XML parsing
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp; Featured platforms
+
+<sub>Built for production use. Repositories are kept **private** because the code belongs to the company.</sub>
+
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Financial Forecast Platform
+A full financial cockpit for management.
+
+- Projected income statement (DRE) with back-testing
+- Cash-flow calendar and accounts receivable
+- Financial indicators and trend analysis
+- Decision-ready business dashboards
+
+`Node.js` · `Express` · `PostgreSQL` · `Docker`
+
+<sub>Private · production · used daily</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### Warehouse Request Platform
+Coordinates the flow between sales and the distribution center.
+
+- Inventory confirmation and reservation
+- Structured request workflow
+- Internal communication between teams
+- Status tracking end to end
+
+`Node.js` · `PostgreSQL` · `EJS`
+
+<sub>Private · production · used daily</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Invoice Processing Platform
+Removes manual data entry from the finance routine.
+
 - PDF extraction
-- Database integration
-- Service invoice processing
+- XML (NF-e) parsing
+- Automated reconciliation
+- Structured output into the database
 
----
+`Python` · `Automation` · `PostgreSQL`
 
-## Business Intelligence Dashboards *(Private Repository)*
+<sub>Private · production · used daily</sub>
 
-Operational dashboards developed to support management and strategic meetings.
+</td>
+<td width="50%" valign="top">
 
-Includes indicators for:
+### Business Intelligence Platform
+The numbers behind the management meetings.
 
-- Sales
-- Financial Performance
-- Logistics
-- Operational Efficiency
+- Consolidated dashboards
+- KPIs across finance, sales and logistics
+- Reporting that leadership reviews directly
+- Live data instead of static spreadsheets
 
----
+`Power BI` · `SQL` · `PostgreSQL`
 
-# Tech Stack
+<sub>Private · production · used daily</sub>
 
-### Languages
+</td>
+</tr>
+</table>
 
-![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python)
-![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript)
-![SQL](https://img.shields.io/badge/SQL-111111?style=for-the-badge)
+<img src="./assets/divider.svg" width="100%"/>
 
-### Backend
+## &nbsp; Tech stack
 
-![Flask](https://img.shields.io/badge/Flask-111111?style=for-the-badge&logo=flask)
-![Node.js](https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=node.js)
-![Express](https://img.shields.io/badge/Express-111111?style=for-the-badge&logo=express)
+<table>
+<tr>
+<td align="center" width="16.6%"><img src="./assets/icons/backend.svg" width="92"/></td>
+<td align="center" width="16.6%"><img src="./assets/icons/frontend.svg" width="92"/></td>
+<td align="center" width="16.6%"><img src="./assets/icons/database.svg" width="92"/></td>
+<td align="center" width="16.6%"><img src="./assets/icons/business.svg" width="92"/></td>
+<td align="center" width="16.6%"><img src="./assets/icons/infra.svg" width="92"/></td>
+<td align="center" width="16.6%"><img src="./assets/icons/ai.svg" width="92"/></td>
+</tr>
+<tr>
+<td align="center"><sub>Python · Flask<br/>Node.js · Express</sub></td>
+<td align="center"><sub>JavaScript<br/>HTML · CSS</sub></td>
+<td align="center"><sub>PostgreSQL<br/>SQLite · SQL</sub></td>
+<td align="center"><sub>Power BI<br/>Power Apps</sub></td>
+<td align="center"><sub>Docker · Nginx<br/>Git</sub></td>
+<td align="center"><sub>AI-assisted<br/>engineering</sub></td>
+</tr>
+</table>
 
-### Database
+<img src="./assets/divider.svg" width="100%"/>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql)
+## &nbsp; AI in my engineering workflow
 
-![SQLite](https://img.shields.io/badge/SQLite-111111?style=for-the-badge&logo=sqlite)
+<table>
+<tr>
+<td width="62%" valign="top">
 
-### Front-end
+AI is part of how I build — not a gimmick and not a replacement for engineering.
 
-![HTML5](https://img.shields.io/badge/HTML5-111111?style=for-the-badge&logo=html5)
+I use it to move faster through implementation: scaffolding, boilerplate, refactors, edge-case discovery and documentation. It compresses the distance between a decision and working code.
 
-![CSS3](https://img.shields.io/badge/CSS3-111111?style=for-the-badge&logo=css3)
+**The decisions stay mine.** Architecture, data modeling, security boundaries, trade-offs and what *correct* means for the business — those come from understanding the problem, not from a prompt. AI accelerates the typing; engineering is still the thinking.
 
-### Business
+</td>
+<td width="38%" valign="top">
 
-Power BI
+<img src="./assets/terminal.svg" alt="terminal" width="100%"/>
 
-Power Apps
+</td>
+</tr>
+</table>
 
-Financial Analysis
+<img src="./assets/divider.svg" width="100%"/>
 
-Business Intelligence
-
-### Infrastructure
-
-Docker
-
-Git
-
-Nginx
-
----
-
-# How I Build Software
-
-```text
-Business Problem
-        │
-        ▼
-Requirements Analysis
-        │
-        ▼
-Solution Design
-        │
-        ▼
-AI-assisted Development
-        │
-        ▼
-Testing
-        │
-        ▼
-Deployment
-        │
-        ▼
-Continuous Improvement
-```
-
----
-
-# Working Style
-
-- Business-first mindset
-- AI-assisted development
-- Continuous iteration
-- Data-driven decisions
-- Focus on maintainable software
-- Close collaboration with management
-
----
-
-# GitHub Stats
+## &nbsp; GitHub activity
 
 <p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SEUUSUARIO&show_icons=true&theme=github_dark&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEUUSUARIO&layout=compact&theme=github_dark&hide_border=true"/>
-
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=JackDaniels2003&show_icons=true&hide_border=true&bg_color=020617&title_color=60A5FA&icon_color=3B82F6&text_color=94A3B8&ring_color=2563EB" alt="stats"/>
+  &nbsp;
+  <img height="170" src="https://github-readme-streak-stats.demolab.com?user=JackDaniels2003&hide_border=true&background=020617&stroke=1E3A8A&ring=2563EB&fire=60A5FA&currStreakLabel=60A5FA&sideLabels=94A3B8&dates=475569&currStreakNum=E2E8F0&sideNums=E2E8F0" alt="streak"/>
 </p>
 
 <p align="center">
-
-<img src="https://streak-stats.demolab.com?user=SEUUSUARIO&theme=github-dark&hide_border=true"/>
-
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JackDaniels2003&layout=compact&hide_border=true&bg_color=020617&title_color=60A5FA&text_color=94A3B8&langs_count=8" alt="top languages"/>
 </p>
 
----
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=JackDaniels2003&bg_color=020617&color=60A5FA&line=2563EB&point=FFFFFF&area=true&area_color=1E3A8A&hide_border=true&custom_title=Contribution%20Graph" alt="activity graph"/>
+</p>
 
-# Currently Exploring
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/JackDaniels2003/JackDaniels2003/output/github-snake-dark.svg" alt="contribution snake"/>
+</p>
 
-- Software Architecture
-- Scalable Backend Systems
-- Artificial Intelligence
-- Data Engineering
-- Financial Analytics
+<img src="./assets/divider.svg" width="100%"/>
 
----
+## &nbsp; Contact
 
-# Let's Connect
+<p align="center">
+  <a href="mailto:danielteodoro1003@gmail.com">
+    <img src="https://img.shields.io/badge/Email-danielteodoro1003@gmail.com-020617?style=for-the-badge&logo=gmail&logoColor=60A5FA&labelColor=0F172A" alt="email"/>
+  </a>
+  &nbsp;
+  <a href="https://wa.me/5524999261431">
+    <img src="https://img.shields.io/badge/WhatsApp-(24)%2099926--1431-020617?style=for-the-badge&logo=whatsapp&logoColor=60A5FA&labelColor=0F172A" alt="whatsapp"/>
+  </a>
+</p>
 
-I'm always interested in discussing software engineering, business systems, process automation and technology applied to real business challenges.
+<p align="center">
+  <sub>Brazil · building production software that solves real business problems.</sub>
+</p>
 
-Feel free to reach out.
+<img src="./assets/divider.svg" width="100%"/>

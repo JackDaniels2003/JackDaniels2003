@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 24" fill="none" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="dl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#3B82F6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="dnode" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <line x1="0" y1="12" x2="1200" y2="12" stroke="url(#dl)" stroke-width="1.5"/>
+
+  <circle cx="600" cy="12" r="10" fill="url(#dnode)">
+    <animate attributeName="r" values="6;11;6" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="12" r="2.5" fill="#93C5FD"/>
+
+  <!-- travelling pulse -->
+  <circle cy="12" r="2" fill="#60A5FA">
+    <animate attributeName="cx" values="0;1200" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>

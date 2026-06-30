@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 260" fill="none" role="img" aria-label="How I work — engineering workflow">
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1222"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="wpath" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <radialGradient id="wnode" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+    <pattern id="wgrid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#1E3A8A" stroke-opacity="0.12"/>
+    </pattern>
+    <filter id="wglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" rx="16" fill="url(#wbg)" stroke="#1E3A8A" stroke-opacity="0.4"/>
+  <rect width="1200" height="260" rx="16" fill="url(#wgrid)"/>
+
+  <!-- connecting rail -->
+  <line x1="90" y1="120" x2="1110" y2="120" stroke="#1E3A8A" stroke-opacity="0.5" stroke-width="2"/>
+  <line x1="90" y1="120" x2="1110" y2="120" stroke="url(#wpath)" stroke-width="2.5" stroke-dasharray="14 10">
+    <animate attributeName="stroke-dashoffset" from="240" to="0" dur="5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- travelling pulse -->
+  <circle cy="120" r="5" fill="#60A5FA" filter="url(#wglow)">
+    <animate attributeName="cx" values="90;1110" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- nodes -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- node template: circle + index + label above/below alternating -->
+    <!-- 1 -->
+    <g>
+      <circle cx="90" cy="120" r="13" fill="url(#wnode)" stroke="#3B82F6" stroke-width="1.5"/>
+      <circle cx="90" cy="120" r="4" fill="#93C5FD"/>
+      <text x="90" y="78" text-anchor="middle" font-size="13" font-weight="600" fill="#E2E8F0">Business</text>
+      <text x="90" y="94" text-anchor="middle" font-size="13" font-weight="600" fill="#E2E8F0">Problem</text>
+    </g>
+    <!-- 2 -->
+    <g>
+      <circle cx="260" cy="120" r="13" fill="url(#wnode)" stroke="#3B82F6" stroke-width="1.5"/>
+      <circle cx="260" cy="120" r="4" fill="#93C5FD"/>
+      <text x="260" y="162" text-anchor="middle" font-size="13" font-weight="600" fill="#94A3B8">Requirements</text>
+    </g>
+    <!-- 3 -->
+    <g>
+      <circle cx="430" cy="120" r="13" fill="url(#wnode)" stroke="#3B82F6" stroke-width="1.5"/>
+      <circle cx="430" cy="120" r="4" fill="#93C5FD"/>
+      <text x="430" y="86" text-anchor="middle" font-size="13" font-weight="600" fill="#E2E8F0">Architecture</text>
+    </g>
+    <!-- 4 -->
+    <g>
+      <circle cx="600" cy="120" r="15" fill="url(#wnode)" stroke="#60A5FA" stroke-width="2"/>
+      <circle cx="600" cy="120" r="4.5" fill="#FFFFFF"/>
+      <circle cx="600" cy="120" r="15" fill="none" stroke="#60A5FA" stroke-opacity="0.5">
+        <animate attributeName="r" values="15;26;15" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <text x="600" y="160" text-anchor="middle" font-size="13" font-weight="700" fill="#60A5FA">AI-assisted Dev</text>
+    </g>
+    <!-- 5 -->
+    <g>
+      <circle cx="770" cy="120" r="13" fill="url(#wnode)" stroke="#3B82F6" stroke-width="1.5"/>
+      <circle cx="770" cy="120" r="4" fill="#93C5FD"/>
+      <text x="770" y="86" text-anchor="middle" font-size="13" font-weight="600" fill="#E2E8F0">Testing</text>
+    </g>
+    <!-- 6 -->
+    <g>
+      <circle cx="940" cy="120" r="13" fill="url(#wnode)" stroke="#3B82F6" stroke-width="1.5"/>
+      <circle cx="940" cy="120" r="4" fill="#93C5FD"/>
+      <text x="940" y="162" text-anchor="middle" font-size="13" font-weight="600" fill="#94A3B8">Deployment</text>
+    </g>
+    <!-- 7 -->
+    <g>
+      <circle cx="1110" cy="120" r="13" fill="url(#wnode)" stroke="#3B82F6" stroke-width="1.5"/>
+      <circle cx="1110" cy="120" r="4" fill="#93C5FD"/>
+      <text x="1110" y="78" text-anchor="middle" font-size="13" font-weight="600" fill="#E2E8F0">Continuous</text>
+      <text x="1110" y="94" text-anchor="middle" font-size="13" font-weight="600" fill="#E2E8F0">Improvement</text>
+    </g>
+  </g>
+
+  <!-- loop arrow back -->
+  <path d="M1110 200 q0 26 -510 26 q-510 0 -510 -26" fill="none" stroke="#1E3A8A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="6 6"/>
+</svg>

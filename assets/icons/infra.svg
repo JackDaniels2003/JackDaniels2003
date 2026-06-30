@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112" fill="none" role="img" aria-label="Infrastructure">
+  <defs>
+    <linearGradient id="c" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="110" height="110" rx="20" fill="url(#c)" stroke="#1E3A8A" stroke-opacity="0.55"/>
+  <g stroke="#3B82F6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="40" y="42" width="11" height="11" rx="2" fill="#1E3A8A" fill-opacity="0.4"/>
+    <rect x="54" y="42" width="11" height="11" rx="2" fill="#1E3A8A" fill-opacity="0.4"/>
+    <rect x="68" y="42" width="11" height="11" rx="2" fill="#1E3A8A" fill-opacity="0.4"/>
+    <rect x="47" y="56" width="11" height="11" rx="2" fill="#1E3A8A" fill-opacity="0.4"/>
+    <rect x="61" y="56" width="11" height="11" rx="2" fill="#1E3A8A" fill-opacity="0.4"/>
+    <path d="M34 74 q22 8 44 0" stroke="#60A5FA"/>
+  </g>
+  <text x="56" y="92" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="1">INFRA</text>
+</svg>
