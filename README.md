@@ -1,85 +1,221 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1d4ed8&height=180&section=header&text=Daniel%20Teodoro&fontSize=44&fontColor=93c5fd&fontAlignY=38&desc=Dev%20que%20entende%20o%20negócio&descAlignY=58&descColor=64748b" width="100%"/>
-</div>
 
-<br/>
+# Daniel Teodoro
 
-<div align="center">
+### Software Engineer focused on Business Systems
 
-*Construo os sistemas que a empresa usa pra tomar decisões — e participo das decisões que eles geram.*
+Building software that supports **financial**, **operational** and **strategic** decision-making.
 
-</div>
+<p>
+  <a href="https://linkedin.com/in/SEU-LINKEDIN">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
 
-<br/>
-
----
-
-### Quem sou
-
-Desenvolvedor de sistemas com foco em **gestão financeira e inteligência de negócios**. Crio soluções que vão direto do banco de dados pra tomada de decisão, sem intermediários.
-
-Além do código, atuo junto à gestão nas áreas de **financeiro, logística e RH** — o que me dá uma visão diferenciada: entendo o problema antes de escrever a primeira linha.
-
-- Sistemas internos de **DRE, Fluxo de Caixa, Contas a Receber e Captação**
-- Integração de **dados legados (DBF/TOTVS) com stacks modernas**
-- ETL automatizado, dashboards e relatórios em tempo real
-- Participo de reuniões de resultado e tomada de decisão estratégica
-
----
-
-### Stack
-
-**Back-end**
-
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=node.js&logoColor=3b82f6)
-![Express](https://img.shields.io/badge/Express-0d1117?style=for-the-badge&logo=express&logoColor=3b82f6)
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3b82f6)
-![Flask](https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=3b82f6)
-
-**Banco de Dados**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=3b82f6)
-![SQLite](https://img.shields.io/badge/SQLite-0d1117?style=for-the-badge&logo=sqlite&logoColor=3b82f6)
-![SQL](https://img.shields.io/badge/SQL%20avançado-0d1117?style=for-the-badge&logo=databricks&logoColor=3b82f6)
-
-**Front-end**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=3b82f6)
-![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=3b82f6)
-![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=3b82f6)
-
-**Infra**
-
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=3b82f6)
-![Nginx](https://img.shields.io/badge/Nginx-0d1117?style=for-the-badge&logo=nginx&logoColor=3b82f6)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=3b82f6)
-
----
-
-### GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=JackDaniels2003&show_icons=true&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=1d4ed8&text_color=94a3b8&ring_color=1d4ed8" />
-&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JackDaniels2003&layout=compact&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=94a3b8" />
+  <a href="mailto:SEUEMAIL">
+    <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
 </div>
 
 ---
 
-### Contato
+# About
 
-<div align="center">
+I develop internal business systems that help companies make better decisions.
 
-[![Email](https://img.shields.io/badge/danielteodoro1003@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=3b82f6)](mailto:danielteodoro1003@gmail.com)
-&nbsp;
-[![WhatsApp](https://img.shields.io/badge/(24)%2099926--1431-0d1117?style=for-the-badge&logo=whatsapp&logoColor=3b82f6)](https://wa.me/5524999261431)
+Instead of focusing only on code, I work from the business problem to the final solution — understanding operational processes, designing software and delivering tools used in real business environments.
 
-</div>
+My work combines software engineering, business intelligence and process automation.
 
-<br/>
+---
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4ed8,100:0d1117&height=120&section=footer" width="100%"/>
-</div>
+# What I Do
+
+- Financial Management Systems
+- Business Intelligence
+- Internal Web Platforms
+- Process Automation
+- Data Integration
+- ETL Pipelines
+- Operational Dashboards
+- ERP Integrations
+- AI-assisted Software Development
+
+---
+
+# Featured Projects
+
+## Financial Forecast Platform *(Private Repository)*
+
+Internal financial platform developed for daily management.
+
+Features include:
+
+- Projected Income Statement (DRE)
+- Cash Flow
+- Accounts Receivable
+- Financial KPIs
+- Real-time indicators
+- Performance analysis
+
+---
+
+## Warehouse Request Platform *(Private Repository)*
+
+Internal communication platform connecting sales representatives and warehouse operations.
+
+Features include:
+
+- Inventory confirmation
+- Request workflow
+- Status tracking
+- Authentication
+- Dashboard
+- SQLite database
+
+---
+
+## Invoice Processing System *(Private Repository)*
+
+Automation platform responsible for extracting information from PDF and XML invoices.
+
+Features include:
+
+- Automatic document reading
+- XML parsing
+- PDF extraction
+- Database integration
+- Service invoice processing
+
+---
+
+## Business Intelligence Dashboards *(Private Repository)*
+
+Operational dashboards developed to support management and strategic meetings.
+
+Includes indicators for:
+
+- Sales
+- Financial Performance
+- Logistics
+- Operational Efficiency
+
+---
+
+# Tech Stack
+
+### Languages
+
+![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript)
+![SQL](https://img.shields.io/badge/SQL-111111?style=for-the-badge)
+
+### Backend
+
+![Flask](https://img.shields.io/badge/Flask-111111?style=for-the-badge&logo=flask)
+![Node.js](https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express-111111?style=for-the-badge&logo=express)
+
+### Database
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql)
+
+![SQLite](https://img.shields.io/badge/SQLite-111111?style=for-the-badge&logo=sqlite)
+
+### Front-end
+
+![HTML5](https://img.shields.io/badge/HTML5-111111?style=for-the-badge&logo=html5)
+
+![CSS3](https://img.shields.io/badge/CSS3-111111?style=for-the-badge&logo=css3)
+
+### Business
+
+Power BI
+
+Power Apps
+
+Financial Analysis
+
+Business Intelligence
+
+### Infrastructure
+
+Docker
+
+Git
+
+Nginx
+
+---
+
+# How I Build Software
+
+```text
+Business Problem
+        │
+        ▼
+Requirements Analysis
+        │
+        ▼
+Solution Design
+        │
+        ▼
+AI-assisted Development
+        │
+        ▼
+Testing
+        │
+        ▼
+Deployment
+        │
+        ▼
+Continuous Improvement
+```
+
+---
+
+# Working Style
+
+- Business-first mindset
+- AI-assisted development
+- Continuous iteration
+- Data-driven decisions
+- Focus on maintainable software
+- Close collaboration with management
+
+---
+
+# GitHub Stats
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=SEUUSUARIO&show_icons=true&theme=github_dark&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEUUSUARIO&layout=compact&theme=github_dark&hide_border=true"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=SEUUSUARIO&theme=github-dark&hide_border=true"/>
+
+</p>
+
+---
+
+# Currently Exploring
+
+- Software Architecture
+- Scalable Backend Systems
+- Artificial Intelligence
+- Data Engineering
+- Financial Analytics
+
+---
+
+# Let's Connect
+
+I'm always interested in discussing software engineering, business systems, process automation and technology applied to real business challenges.
+
+Feel free to reach out.
