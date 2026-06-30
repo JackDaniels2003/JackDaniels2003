@@ -249,6 +249,10 @@ Eu uso para avançar mais rápido na implementação: scaffolding, código repet
 ## &nbsp; Contato
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/daniel-vitor-da-silva-teodoro-31a01a273">
+    <img src="https://img.shields.io/badge/LinkedIn-Daniel%20Vitor%20Teodoro-020617?style=for-the-badge&logo=linkedin&logoColor=60A5FA&labelColor=0F172A" alt="linkedin"/>
+  </a>
+  &nbsp;
   <a href="mailto:danielteodoro1003@gmail.com">
     <img src="https://img.shields.io/badge/Email-danielteodoro1003@gmail.com-020617?style=for-the-badge&logo=gmail&logoColor=60A5FA&labelColor=0F172A" alt="email"/>
   </a>
