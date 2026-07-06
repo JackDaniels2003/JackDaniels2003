@@ -19,13 +19,42 @@
   <code>Automação</code>
 </p>
 
+<br/>
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 4+
+<sub>Plataformas em produção</sub>
+
+</td>
+<td align="center" width="25%">
+
+### 5+
+<sub>Áreas de negócio</sub>
+
+</td>
+<td align="center" width="25%">
+
+### Diário
+<sub>Uso interno</sub>
+
+</td>
+<td align="center" width="25%">
+
+### IA
+<sub>Fluxo assistido</sub>
+
+</td>
+</tr>
+</table>
+
 <img src="./assets/divider.svg" width="100%"/>
 
-## &nbsp; Em poucas palavras
+## &nbsp; O engenheiro por trás dos sistemas
 
-Sou desenvolvedor em uma empresa de varejo, onde construo boa parte do software interno que as equipes usam no dia a dia: plataformas financeiras, dashboards e ferramentas para o estoque e para automatizar trabalho manual.
-
-O que eu mais gosto é de estar perto de quem usa o que eu construo. Participo das reuniões de resultado e converso com as equipes de financeiro, logística e gestão, para entender o que um número realmente significa antes de transformar em código, e depois vou melhorando conforme as pessoas usam.
+Construo software interno usado diariamente pelas equipes de financeiro, logística e gestão: plataformas financeiras, dashboards operacionais e ferramentas de automação que sustentam decisões reais do negócio.
 
 <br/>
 
@@ -264,12 +293,12 @@ Eu uso para avançar mais rápido na implementação: scaffolding, código repet
     <img src="https://img.shields.io/badge/LinkedIn-Daniel%20Vitor%20Teodoro-020617?style=for-the-badge&logo=linkedin&logoColor=60A5FA&labelColor=0F172A" alt="linkedin"/>
   </a>
   &nbsp;
-  <a href="mailto:danielteodoro1003@gmail.com">
-    <img src="https://img.shields.io/badge/Email-danielteodoro1003@gmail.com-020617?style=for-the-badge&logo=gmail&logoColor=60A5FA&labelColor=0F172A" alt="email"/>
-  </a>
-  &nbsp;
   <a href="https://wa.me/5524999261431">
     <img src="https://img.shields.io/badge/WhatsApp-(24)%2099926--1431-020617?style=for-the-badge&logo=whatsapp&logoColor=60A5FA&labelColor=0F172A" alt="whatsapp"/>
+  </a>
+  &nbsp;
+  <a href="mailto:danielteodoro1003@gmail.com">
+    <img src="https://img.shields.io/badge/Email-danielteodoro1003@gmail.com-020617?style=for-the-badge&logo=gmail&logoColor=60A5FA&labelColor=0F172A" alt="email"/>
   </a>
 </p>
 
