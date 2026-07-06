@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 170" fill="none" role="img" aria-label="Impact: 5 production platforms, 5 departments served, daily internal usage, AI-assisted workflow">
+  <defs>
+    <linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1222"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="iaccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+      <animate attributeName="x1" values="-1;0;-1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1;0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="igrid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#1E3A8A" stroke-opacity="0.12"/>
+    </pattern>
+    <filter id="iglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="170" rx="16" fill="url(#ibg)" stroke="#1E3A8A" stroke-opacity="0.4"/>
+  <rect width="1200" height="170" rx="16" fill="url(#igrid)"/>
+
+  <!-- top hairline accent -->
+  <rect x="0" y="0" width="1200" height="2" rx="1" fill="url(#iaccent)" opacity="0.8"/>
+
+  <!-- travelling pulse along the base -->
+  <circle cy="150" r="2" fill="#60A5FA">
+    <animate attributeName="cx" values="24;1176" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- corner ticks -->
+  <g stroke="#2563EB" stroke-width="1.5" opacity="0.6">
+    <path d="M20 20 H40"/><path d="M20 20 V40"/>
+    <path d="M1180 20 H1160"/><path d="M1180 20 V40"/>
+    <path d="M20 150 H40"/><path d="M20 150 V130"/>
+    <path d="M1180 150 H1160"/><path d="M1180 150 V130"/>
+  </g>
+
+  <!-- column dividers -->
+  <g stroke="#1E3A8A" stroke-opacity="0.35">
+    <line x1="300" y1="36" x2="300" y2="134"/>
+    <line x1="600" y1="36" x2="600" y2="134"/>
+    <line x1="900" y1="36" x2="900" y2="134"/>
+  </g>
+
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
+    <!-- 1: production platforms -->
+    <g filter="url(#iglow)">
+      <text x="150" y="84" font-size="42" font-weight="700" fill="#60A5FA">5</text>
+    </g>
+    <text x="150" y="122" font-size="13" font-weight="600" letter-spacing="0.4" fill="#94A3B8">Production Platforms</text>
+
+    <!-- 2: departments served -->
+    <g filter="url(#iglow)">
+      <text x="450" y="84" font-size="42" font-weight="700" fill="#60A5FA">5</text>
+    </g>
+    <text x="450" y="122" font-size="13" font-weight="600" letter-spacing="0.4" fill="#94A3B8">Departments Served</text>
+
+    <!-- 3: internal usage -->
+    <g filter="url(#iglow)">
+      <text x="750" y="84" font-size="32" font-weight="700" fill="#60A5FA">Daily</text>
+    </g>
+    <text x="750" y="122" font-size="13" font-weight="600" letter-spacing="0.4" fill="#94A3B8">Internal Usage</text>
+
+    <!-- 4: AI-assisted workflow (extra pulse ring, mirrors the workflow.svg AI node treatment) -->
+    <circle cx="1050" cy="70" r="26" fill="none" stroke="#60A5FA" stroke-opacity="0.4">
+      <animate attributeName="r" values="22;30;22" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <g filter="url(#iglow)">
+      <text x="1050" y="84" font-size="32" font-weight="700" fill="#60A5FA">AI</text>
+    </g>
+    <text x="1050" y="122" font-size="13" font-weight="600" letter-spacing="0.4" fill="#94A3B8">Assisted Workflow</text>
+  </g>
+</svg>

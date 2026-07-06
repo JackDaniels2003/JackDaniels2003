@@ -19,37 +19,6 @@
   <code>Automação</code>
 </p>
 
-<br/>
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-### 4+
-<sub>Plataformas em produção</sub>
-
-</td>
-<td align="center" width="25%">
-
-### 5+
-<sub>Áreas de negócio</sub>
-
-</td>
-<td align="center" width="25%">
-
-### Diário
-<sub>Uso interno</sub>
-
-</td>
-<td align="center" width="25%">
-
-### IA
-<sub>Fluxo assistido</sub>
-
-</td>
-</tr>
-</table>
-
 <img src="./assets/divider.svg" width="100%"/>
 
 ## &nbsp; O engenheiro por trás dos sistemas
@@ -57,6 +26,12 @@
 Construo software interno usado diariamente pelas equipes de financeiro, logística e gestão: plataformas financeiras, dashboards operacionais e ferramentas de automação que sustentam decisões reais do negócio.
 
 <br/>
+
+<p align="center">
+  <img src="./assets/impact.svg" alt="5 plataformas em produção, 5 departamentos atendidos, uso interno diário, fluxo assistido por IA" width="100%"/>
+</p>
+
+<img src="./assets/divider.svg" width="100%"/>
 
 ## &nbsp; O que eu faço
 

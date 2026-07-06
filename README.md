@@ -19,37 +19,6 @@
   <code>Automation</code>
 </p>
 
-<br/>
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-### 4+
-<sub>Production platforms</sub>
-
-</td>
-<td align="center" width="25%">
-
-### 5+
-<sub>Business areas</sub>
-
-</td>
-<td align="center" width="25%">
-
-### Daily
-<sub>Internal usage</sub>
-
-</td>
-<td align="center" width="25%">
-
-### AI
-<sub>Assisted workflow</sub>
-
-</td>
-</tr>
-</table>
-
 <img src="./assets/divider.svg" width="100%"/>
 
 ## &nbsp; The engineer behind the systems
@@ -57,6 +26,12 @@
 I build internal software used daily by finance, logistics and management teams: financial platforms, operational dashboards and automation tools that support real business decisions.
 
 <br/>
+
+<p align="center">
+  <img src="./assets/impact.svg" alt="5 production platforms, 5 departments served, daily internal usage, AI-assisted workflow" width="100%"/>
+</p>
+
+<img src="./assets/divider.svg" width="100%"/>
 
 ## &nbsp; What I do
 
