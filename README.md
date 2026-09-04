@@ -23,13 +23,7 @@
 
 ## &nbsp; The engineer behind the systems
 
-I build internal software used daily by finance, logistics, commercial and management teams: financial platforms, operational dashboards and automation tools that support real decisions. Writing the code comes second. Understanding the business problem well enough to know what's worth building comes first, shaped by a background split between Software Engineering and Business Administration.
-
-<br/>
-
-<p align="center">
-  <img src="./assets/impact.svg" alt="4 production platforms, 6 departments served, daily internal usage, AI-assisted workflow" width="100%"/>
-</p>
+I build internal software used daily by finance, logistics, commercial and management teams: financial platforms, operational dashboards and automation tools that support real decisions. My background is split between Software Engineering and Business Administration, so before writing code I try to understand the actual business problem first: what's broken, who it affects, and what's worth building.
 
 <img src="./assets/divider.svg" width="100%"/>
 
@@ -104,14 +98,12 @@ Reading a broken or manual process, talking to the people who live with it, and 
 
 What started as a financial DRE grew into the company's internal operations hub. One platform, many departments, all running on the same live data.
 
-| Module | What it does |
-|--------|--------------|
-| **Financial** | Projected & realized income statement (DRE) with back-testing, cash-flow calendar, accounts receivable, indicators |
-| **HR** | Digital time clock, hour-bank tracking, payroll summary |
-| **Purchasing** | Purchase orders, budgeting and their impact on the financials |
-| **Logistics** | Warehouse and distribution-center addressing, pallet movement and inventory control, rebuilt inside the platform after starting as a standalone system |
-| **Commercial** | Sales KPIs, salesperson performance and client analysis |
-| **Data** | Automated ETL importing legacy ERP data (DBF / TOTVS) into PostgreSQL every few minutes |
+- **Financial:** projected & realized income statement (DRE) with back-testing, cash-flow calendar, accounts receivable, indicators
+- **HR:** digital time clock, hour-bank tracking, payroll summary
+- **Purchasing:** purchase orders, budgeting and their impact on the financials
+- **Logistics:** warehouse and distribution-center addressing, pallet movement and inventory control, rebuilt inside the platform after starting as a standalone system
+- **Commercial:** sales KPIs, salesperson performance and client analysis
+- **Data:** automated ETL importing legacy ERP data (DBF / TOTVS) into PostgreSQL every few minutes
 
 `Node.js` · `Express` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
 

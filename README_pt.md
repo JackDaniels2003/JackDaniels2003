@@ -23,13 +23,7 @@
 
 ## &nbsp; O engenheiro por trás dos sistemas
 
-Construo software interno usado diariamente pelas equipes de financeiro, logística, comercial e gestão: plataformas financeiras, dashboards operacionais e ferramentas de automação que sustentam decisões reais. Escrever o código vem depois. Entender o problema de negócio o suficiente pra saber o que vale a pena construir vem primeiro, moldado por uma formação dividida entre Engenharia de Software e Administração.
-
-<br/>
-
-<p align="center">
-  <img src="./assets/impact.svg" alt="4 plataformas em produção, 6 departamentos atendidos, uso interno diário, fluxo assistido por IA" width="100%"/>
-</p>
+Construo software interno usado diariamente pelas equipes de financeiro, logística, comercial e gestão: plataformas financeiras, dashboards operacionais e ferramentas de automação que sustentam decisões reais. Minha formação é dividida entre Engenharia de Software e Administração, então antes de escrever código eu tento entender o problema de negócio de verdade: o que está quebrado, quem é afetado e o que vale a pena construir.
 
 <img src="./assets/divider.svg" width="100%"/>
 
@@ -104,14 +98,12 @@ Entender um processo manual ou quebrado, conversar com quem convive com ele no d
 
 O que começou como um DRE financeiro virou o hub de operações interno da empresa. Uma plataforma, vários setores, todos rodando sobre os mesmos dados ao vivo.
 
-| Módulo | O que faz |
-|--------|-----------|
-| **Financeiro** | DRE projetado e realizado com back-testing, calendário de fluxo de caixa, contas a receber, indicadores |
-| **RH** | Folha de ponto digital, controle de banco de horas, resumo da folha |
-| **Compras** | Pedidos, orçamento de compras e o impacto deles no financeiro |
-| **Logística** | Endereçamento de estoque e centro de distribuição, movimentação de pallets e controle de inventário, reconstruído dentro da plataforma depois de começar como sistema separado |
-| **Comercial** | Indicadores de vendas, desempenho de vendedores e análise de clientes |
-| **Dados** | ETL automatizado importando dados do ERP legado (DBF / TOTVS) para o PostgreSQL a cada poucos minutos |
+- **Financeiro:** DRE projetado e realizado com back-testing, calendário de fluxo de caixa, contas a receber, indicadores
+- **RH:** folha de ponto digital, controle de banco de horas, resumo da folha
+- **Compras:** pedidos, orçamento de compras e o impacto deles no financeiro
+- **Logística:** endereçamento de estoque e centro de distribuição, movimentação de pallets e controle de inventário, reconstruído dentro da plataforma depois de começar como sistema separado
+- **Comercial:** indicadores de vendas, desempenho de vendedores e análise de clientes
+- **Dados:** ETL automatizado importando dados do ERP legado (DBF / TOTVS) para o PostgreSQL a cada poucos minutos
 
 `Node.js` · `Express` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
 

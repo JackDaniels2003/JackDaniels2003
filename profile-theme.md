@@ -53,7 +53,7 @@ Dark mode only. Engineered, restrained, blue. Inspired by Stripe, Vercel, Linear
 | `assets/divider.svg`     | Reusable section divider with travelling pulse    |
 | `assets/terminal.svg`    | Minimal fake terminal with typed-in lines         |
 | `assets/workflow.svg`    | Animated 7-stage engineering pipeline             |
-| `assets/impact.svg`      | 4-stat impact bar (platforms, departments, usage, AI) |
+| `assets/impact.svg`      | 4-stat impact bar (unused, removed from the README, kept in case it's needed later) |
 | `assets/background.svg`  | Subtle geometric / dotted backdrop                |
 | `assets/icons/*.svg`     | Line-style tech-stack card icons                  |
 
