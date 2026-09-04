@@ -23,12 +23,12 @@
 
 ## &nbsp; O engenheiro por trás dos sistemas
 
-Construo software interno usado diariamente pelas equipes de financeiro, logística e gestão: plataformas financeiras, dashboards operacionais e ferramentas de automação que sustentam decisões reais do negócio.
+Construo software interno usado diariamente pelas equipes de financeiro, logística, comercial e gestão: plataformas financeiras, dashboards operacionais e ferramentas de automação que sustentam decisões reais. Escrever o código vem depois. Entender o problema de negócio o suficiente pra saber o que vale a pena construir vem primeiro, moldado por uma formação dividida entre Engenharia de Software e Administração.
 
 <br/>
 
 <p align="center">
-  <img src="./assets/impact.svg" alt="5 plataformas em produção, 5 departamentos atendidos, uso interno diário, fluxo assistido por IA" width="100%"/>
+  <img src="./assets/impact.svg" alt="4 plataformas em produção, 6 departamentos atendidos, uso interno diário, fluxo assistido por IA" width="100%"/>
 </p>
 
 <img src="./assets/divider.svg" width="100%"/>
@@ -57,8 +57,8 @@ Sistemas operacionais usados diariamente entre setores, com autenticação e con
 **Integração de Dados**
 Ponte entre dados de ERP legado (DBF / TOTVS) e aplicações modernas com PostgreSQL.
 
-**Sistemas Operacionais**
-Solicitações de estoque, agendamentos e fluxos de comunicação interna.
+**Análise de Negócio**
+Entender um processo manual ou quebrado, conversar com quem convive com ele no dia a dia, e decidir o que vale a pena construir antes de escrever qualquer código.
 
 </td>
 </tr>
@@ -68,7 +68,7 @@ Solicitações de estoque, agendamentos e fluxos de comunicação interna.
 
 ## &nbsp; Missão atual
 
-> **Construir software que melhora a forma como a empresa opera.**
+> **Construo os sistemas que a empresa usa para tomar decisões, e participo das decisões que eles geram.**
 >
 > Substituir planilhas por aplicações web.
 > Transformar exportações brutas do ERP em decisões confiáveis.
@@ -109,7 +109,8 @@ O que começou como um DRE financeiro virou o hub de operações interno da empr
 | **Financeiro** | DRE projetado e realizado com back-testing, calendário de fluxo de caixa, contas a receber, indicadores |
 | **RH** | Folha de ponto digital, controle de banco de horas, resumo da folha |
 | **Compras** | Pedidos, orçamento de compras e o impacto deles no financeiro |
-| **Logística** | Controle monetário do estoque e relatório do centro de distribuição |
+| **Logística** | Endereçamento de estoque e centro de distribuição, movimentação de pallets e controle de inventário, reconstruído dentro da plataforma depois de começar como sistema separado |
+| **Comercial** | Indicadores de vendas, desempenho de vendedores e análise de clientes |
 | **Dados** | ETL automatizado importando dados do ERP legado (DBF / TOTVS) para o PostgreSQL a cada poucos minutos |
 
 `Node.js` · `Express` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
@@ -126,6 +127,7 @@ O que começou como um DRE financeiro virou o hub de operações interno da empr
 Transforma a equipe de vendas em uma rede de prospecção em campo.
 
 - Consultores registram obras e prospects no local
+- Mais de 200 obras captadas até hoje
 - Fotos (comprimidas automaticamente) e geolocalização GPS por lead
 - Mapa interativo de cada oportunidade captada
 - Distribuição de leads e acompanhamento de follow-up
@@ -136,25 +138,6 @@ Transforma a equipe de vendas em uma rede de prospecção em campo.
 <sub>Privado · produção · uso diário</sub>
 
 </td>
-<td width="50%" valign="top">
-
-### ▦ &nbsp;Plataforma de Endereçamento de Estoque
-
-Mapeia e gerencia cada posição de armazenagem do estoque.
-
-- Cada posição de pallet, rua e vão totalmente mapeada
-- Controle de pallets com drag-and-drop
-- Gestão de movimentações ponta a ponta
-- Gestão de produtos cadastrados
-- Mesma arquitetura da plataforma principal: Python + SQLite, sem Docker
-
-`Python` · `SQLite` · `Drag & Drop UI`
-
-<sub>Privado · produção · uso diário</sub>
-
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### ◇ &nbsp;Plataforma de Processamento de Notas
@@ -169,7 +152,9 @@ Tira a digitação manual da rotina financeira.
 <sub>Privado · produção</sub>
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
 ### ◷ &nbsp;Plataforma de Solicitação de Estoque
 
@@ -181,6 +166,36 @@ Coordena o fluxo entre vendas e o centro de distribuição.
 `Node.js` · `PostgreSQL` · `EJS`
 
 <sub>Privado · produção</sub>
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp; Projeto pessoal
+
+<sub>Não é trabalho da empresa. Construído no meu tempo livre pra aprender o que a stack interna não cobre: front-end moderno, tempo real, OAuth.</sub>
+
+<br/>
+
+<table>
+<tr>
+<td colspan="2" valign="top">
+
+### ▲ &nbsp;Spotter &nbsp;<sub>· app pra encontrar parceiro de treino</sub>
+
+Conecta pessoas que treinam sozinhas com parceiros de treino na mesma academia e horário.
+
+- Onboarding em várias etapas: academia, horário, objetivos, interesses
+- Feed com posts de fotos, comentários e combinação de perfis
+- Chat em tempo real (individual e em grupo) via Socket.IO
+- Eventos com mapa, álbum de fotos compartilhado e chat do evento
+- Google OAuth, sessões JWT, API com rate limiting
+
+`React Native` · `Expo` · `Express` · `PostgreSQL` · `Socket.IO`
+
+<sub>Pessoal · em desenvolvimento</sub>
 
 </td>
 </tr>
@@ -201,7 +216,7 @@ Coordena o fluxo entre vendas e o centro de distribuição.
 </tr>
 <tr>
 <td align="center"><sub>Python · Flask<br/>Node.js · Express</sub></td>
-<td align="center"><sub>JavaScript<br/>HTML · CSS</sub></td>
+<td align="center"><sub>JavaScript · React Native<br/>HTML · CSS</sub></td>
 <td align="center"><sub>PostgreSQL<br/>SQLite · SQL</sub></td>
 <td align="center"><sub>Power BI<br/>Power Apps</sub></td>
 <td align="center"><sub>Docker · Nginx<br/>Git</sub></td>

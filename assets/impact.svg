@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 170" fill="none" role="img" aria-label="Impact: 5 production platforms, 5 departments served, daily internal usage, AI-assisted workflow">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 170" fill="none" role="img" aria-label="Impact: 4 production platforms, 6 departments served, daily internal usage, AI-assisted workflow">
   <defs>
     <linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0B1222"/>
@@ -50,13 +50,13 @@
   <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
     <!-- 1: production platforms -->
     <g filter="url(#iglow)">
-      <text x="150" y="84" font-size="42" font-weight="700" fill="#60A5FA">5</text>
+      <text x="150" y="84" font-size="42" font-weight="700" fill="#60A5FA">4</text>
     </g>
     <text x="150" y="122" font-size="13" font-weight="600" letter-spacing="0.4" fill="#94A3B8">Production Platforms</text>
 
     <!-- 2: departments served -->
     <g filter="url(#iglow)">
-      <text x="450" y="84" font-size="42" font-weight="700" fill="#60A5FA">5</text>
+      <text x="450" y="84" font-size="42" font-weight="700" fill="#60A5FA">6</text>
     </g>
     <text x="450" y="122" font-size="13" font-weight="600" letter-spacing="0.4" fill="#94A3B8">Departments Served</text>
 

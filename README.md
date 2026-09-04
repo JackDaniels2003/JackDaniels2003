@@ -23,12 +23,12 @@
 
 ## &nbsp; The engineer behind the systems
 
-I build internal software used daily by finance, logistics and management teams: financial platforms, operational dashboards and automation tools that support real business decisions.
+I build internal software used daily by finance, logistics, commercial and management teams: financial platforms, operational dashboards and automation tools that support real decisions. Writing the code comes second. Understanding the business problem well enough to know what's worth building comes first, shaped by a background split between Software Engineering and Business Administration.
 
 <br/>
 
 <p align="center">
-  <img src="./assets/impact.svg" alt="5 production platforms, 5 departments served, daily internal usage, AI-assisted workflow" width="100%"/>
+  <img src="./assets/impact.svg" alt="4 production platforms, 6 departments served, daily internal usage, AI-assisted workflow" width="100%"/>
 </p>
 
 <img src="./assets/divider.svg" width="100%"/>
@@ -57,8 +57,8 @@ Operational systems used daily across departments, behind authentication and rol
 **Data Integration**
 Bridging legacy ERP data (DBF / TOTVS) into modern PostgreSQL-backed applications.
 
-**Operational Systems**
-Warehouse requests, scheduling and internal communication workflows.
+**Business Analysis**
+Reading a broken or manual process, talking to the people who live with it, and deciding what's worth building before any code gets written.
 
 </td>
 </tr>
@@ -68,7 +68,7 @@ Warehouse requests, scheduling and internal communication workflows.
 
 ## &nbsp; Current mission
 
-> **Building software that improves how a company operates.**
+> **I build the systems the company uses to make decisions, and I take part in the decisions they produce.**
 >
 > Replacing spreadsheets with web applications.
 > Turning raw ERP exports into decisions managers can trust.
@@ -109,7 +109,8 @@ What started as a financial DRE grew into the company's internal operations hub.
 | **Financial** | Projected & realized income statement (DRE) with back-testing, cash-flow calendar, accounts receivable, indicators |
 | **HR** | Digital time clock, hour-bank tracking, payroll summary |
 | **Purchasing** | Purchase orders, budgeting and their impact on the financials |
-| **Logistics** | Monetary inventory control and distribution-center reporting |
+| **Logistics** | Warehouse and distribution-center addressing, pallet movement and inventory control, rebuilt inside the platform after starting as a standalone system |
+| **Commercial** | Sales KPIs, salesperson performance and client analysis |
 | **Data** | Automated ETL importing legacy ERP data (DBF / TOTVS) into PostgreSQL every few minutes |
 
 `Node.js` · `Express` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
@@ -126,6 +127,7 @@ What started as a financial DRE grew into the company's internal operations hub.
 Turns the sales team into a prospecting network out in the field.
 
 - Consultants register construction sites & prospects on location
+- 200+ construction sites captured to date
 - Photos (auto-compressed) and GPS geolocation per lead
 - Interactive map of every captured opportunity
 - Lead distribution and follow-up tracking
@@ -136,25 +138,6 @@ Turns the sales team into a prospecting network out in the field.
 <sub>Private · production · used daily</sub>
 
 </td>
-<td width="50%" valign="top">
-
-### ▦ &nbsp;Warehouse Addressing Platform
-
-Maps and manages every storage position in the warehouse.
-
-- Each pallet position, aisle and slot fully mapped
-- Drag-and-drop pallet control
-- End-to-end movement management
-- Registered-product management
-- Same architecture as the main platform: Python + SQLite, no Docker
-
-`Python` · `SQLite` · `Drag & Drop UI`
-
-<sub>Private · production · used daily</sub>
-
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### ◇ &nbsp;Invoice Processing Platform
@@ -169,7 +152,9 @@ Removes manual data entry from the finance routine.
 <sub>Private · production</sub>
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
 ### ◷ &nbsp;Warehouse Request Platform
 
@@ -181,6 +166,36 @@ Coordinates the flow between sales and the distribution center.
 `Node.js` · `PostgreSQL` · `EJS`
 
 <sub>Private · production</sub>
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+## &nbsp; Personal project
+
+<sub>Not company work. Built on my own time to learn what the internal stack doesn't cover: modern front-end, real-time features, OAuth.</sub>
+
+<br/>
+
+<table>
+<tr>
+<td colspan="2" valign="top">
+
+### ▲ &nbsp;Spotter &nbsp;<sub>· gym training-partner app</sub>
+
+Connects people who train alone with training partners at the same gym and schedule.
+
+- Multi-step onboarding: gym, schedule, goals, interests
+- Feed with photo posts, comments and profile matching
+- Real-time chat (1:1 and group) via Socket.IO
+- Events with map view, shared photo album and event chat
+- Google OAuth, JWT sessions, rate-limited API
+
+`React Native` · `Expo` · `Express` · `PostgreSQL` · `Socket.IO`
+
+<sub>Personal · in development</sub>
 
 </td>
 </tr>
@@ -201,7 +216,7 @@ Coordinates the flow between sales and the distribution center.
 </tr>
 <tr>
 <td align="center"><sub>Python · Flask<br/>Node.js · Express</sub></td>
-<td align="center"><sub>JavaScript<br/>HTML · CSS</sub></td>
+<td align="center"><sub>JavaScript · React Native<br/>HTML · CSS</sub></td>
 <td align="center"><sub>PostgreSQL<br/>SQLite · SQL</sub></td>
 <td align="center"><sub>Power BI<br/>Power Apps</sub></td>
 <td align="center"><sub>Docker · Nginx<br/>Git</sub></td>
