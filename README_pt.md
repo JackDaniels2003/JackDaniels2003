@@ -96,16 +96,22 @@ Entender um processo manual ou quebrado, conversar com quem convive com ele no d
 
 ### ▣ &nbsp;Plataforma de Gestão Integrada &nbsp;<sub>· principal</sub>
 
-O que começou como um DRE financeiro virou o hub de operações interno da empresa. Uma plataforma, vários setores, todos rodando sobre os mesmos dados ao vivo.
+O pedido era um relatório só: um DRE. Mas os mesmos dados já eram refeitos na mão para fluxo de caixa, contas a receber e compras, então propus uma plataforma no lugar de um relatório. Virou o hub de operações interno da empresa, com cada setor lendo dos mesmos dados ao vivo.
 
-- **Financeiro:** DRE projetado e realizado com back-testing, calendário de fluxo de caixa, contas a receber, indicadores
-- **RH:** folha de ponto digital, controle de banco de horas, resumo da folha
-- **Compras:** pedidos, orçamento de compras e o impacto deles no financeiro
-- **Logística:** endereçamento de estoque e centro de distribuição, movimentação de pallets e controle de inventário, reconstruído dentro da plataforma depois de começar como sistema separado
-- **Comercial:** indicadores de vendas, desempenho de vendedores e análise de clientes
-- **Dados:** ETL automatizado importando dados do ERP legado (DBF / TOTVS) para o PostgreSQL a cada poucos minutos
+**Como funciona.** Um ETL em Python lê os arquivos DBF exportados do ERP legado a cada poucos minutos, converte e carrega no PostgreSQL, que passa a ser a fonte única de dados. Em cima disso, uma aplicação Express + EJS entrega a cada setor o seu módulo, com sessão autenticada e acesso por cargo. Tudo roda em containers Docker atrás do Nginx.
 
-`Node.js` · `Express` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
+**O que tem dentro**, distribuído em 30 módulos documentados:
+
+- **Financeiro:** DRE projetado e realizado com back-testing das projeções anteriores, calendário de fluxo de caixa, contas a receber e acompanhamento, recebimento contra pagamento, plano de contas, indicadores financeiros
+- **Compras:** pedidos, orçamento e cesta de compras, e como cada pedido afeta o limite de CMV do mês e o resultado financeiro
+- **Logística:** layout e endereçamento do centro de distribuição, movimentação de pallets, recebimento, separação e verificação de estoque, reconstruído dentro da plataforma depois de nascer como sistema próprio
+- **RH:** folha de ponto digital, banco de horas, resumo da folha e ficha de funcionários
+- **Comercial:** indicadores de vendas, desempenho de vendedores, análise e carteira de clientes, saúde de fornecedor e cliente, efetividade de promoções, evolução de preços
+- **Dados:** o ETL automatizado do ERP legado (DBF / TOTVS), além das telas de base de dados e configuração que sustentam a plataforma
+
+Documentado ponta a ponta: modelo de dados (MER), manual de utilização, matriz de QA, auditoria técnica e plano de disaster recovery.
+
+`Node.js` · `Express` · `EJS` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
 
 <sub>Privado · produção · usado entre setores todos os dias</sub>
 
@@ -132,6 +138,25 @@ Transforma a equipe de vendas em uma rede de prospecção em campo.
 </td>
 <td width="50%" valign="top">
 
+### ▦ &nbsp;Plataforma de Endereçamento de Estoque
+
+Sistema próprio, construído em torno de uma pergunta operacional: onde está esse produto agora?
+
+- Cada posição de armazenagem mapeada por fileira, subfileira, coluna e nível
+- Controle de pallets com drag-and-drop sobre o layout do estoque
+- Um motivo registrado para cada movimentação: expedição, separação, requisição, transferência, avaria
+- Cadastro de produtos, importação por planilha e indicadores operacionais
+- Depois reconstruído como módulo dentro da plataforma de gestão, que é onde ele roda hoje
+
+`Node.js` · `Express` · `EJS` · `SQLite`
+
+<sub>Privado · nasceu separado, hoje faz parte da plataforma principal</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### ◇ &nbsp;Plataforma de Processamento de Notas
 
 Tira a digitação manual da rotina financeira.
@@ -144,9 +169,7 @@ Tira a digitação manual da rotina financeira.
 <sub>Privado · produção</sub>
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### ◷ &nbsp;Plataforma de Solicitação de Estoque
 

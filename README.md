@@ -96,16 +96,22 @@ Reading a broken or manual process, talking to the people who live with it, and 
 
 ### ▣ &nbsp;Integrated Management Platform &nbsp;<sub>· flagship</sub>
 
-What started as a financial DRE grew into the company's internal operations hub. One platform, many departments, all running on the same live data.
+The request was a single report: a DRE (income statement). But the same data was already being rebuilt by hand for cash flow, receivables and purchasing, so I proposed one platform instead of one report. It became the company's internal operations hub, with every department reading from the same live data.
 
-- **Financial:** projected & realized income statement (DRE) with back-testing, cash-flow calendar, accounts receivable, indicators
-- **HR:** digital time clock, hour-bank tracking, payroll summary
-- **Purchasing:** purchase orders, budgeting and their impact on the financials
-- **Logistics:** warehouse and distribution-center addressing, pallet movement and inventory control, rebuilt inside the platform after starting as a standalone system
-- **Commercial:** sales KPIs, salesperson performance and client analysis
-- **Data:** automated ETL importing legacy ERP data (DBF / TOTVS) into PostgreSQL every few minutes
+**How it works.** A Python ETL reads the legacy ERP's DBF exports every few minutes, converts them and loads them into PostgreSQL, which becomes the single source of truth. On top of that, an Express + EJS application serves each department its own module, behind session authentication and role-based access. The whole thing runs in Docker containers behind Nginx.
 
-`Node.js` · `Express` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
+**What's inside**, across 30 documented modules:
+
+- **Financial:** projected and realized income statement with back-testing against past forecasts, cash-flow calendar, accounts receivable and its follow-up, payments against receipts, chart of accounts, financial indicators
+- **Purchasing:** purchase orders, purchase budget and basket, and how each order affects both the month's cost-of-goods (CMV) ceiling and the financial result
+- **Logistics:** distribution-center layout and addressing, pallet movement, receiving, picking and stock verification, rebuilt inside the platform after starting as its own separate system
+- **HR:** digital time clock, hour-bank tracking, payroll summary and employee records
+- **Commercial:** sales indicators, salesperson performance, client analysis and portfolio, supplier and client health, promotion effectiveness, price evolution
+- **Data:** the automated ETL from the legacy ERP (DBF / TOTVS), plus the database and configuration screens the platform runs on
+
+Documented end to end: data model (MER), user manual, QA matrix, technical audit and a disaster-recovery plan.
+
+`Node.js` · `Express` · `EJS` · `PostgreSQL` · `Python ETL` · `Docker` · `Nginx`
 
 <sub>Private · production · used across departments every day</sub>
 
@@ -132,6 +138,25 @@ Turns the sales team into a prospecting network out in the field.
 </td>
 <td width="50%" valign="top">
 
+### ▦ &nbsp;Warehouse Addressing Platform
+
+Its own system, built around one operational question: where is this product right now?
+
+- Every storage position mapped by row, sub-row, column and level
+- Drag-and-drop pallet control over the warehouse layout
+- A reason recorded for every movement: shipping, picking, requests, transfers, damage
+- Product registration, spreadsheet import and operational indicators
+- Later rebuilt as a module inside the management platform, which is where it runs today
+
+`Node.js` · `Express` · `EJS` · `SQLite`
+
+<sub>Private · started standalone, now part of the main platform</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### ◇ &nbsp;Invoice Processing Platform
 
 Removes manual data entry from the finance routine.
@@ -144,9 +169,7 @@ Removes manual data entry from the finance routine.
 <sub>Private · production</sub>
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### ◷ &nbsp;Warehouse Request Platform
 
